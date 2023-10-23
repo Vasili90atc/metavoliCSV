@@ -53,22 +53,7 @@
 			<artifactId>java-sdk</artifactId>
 			<version>11.0.0</version>
 		</dependency>
-
-		<dependency>
-			<groupId>com.opencsv</groupId>
-			<artifactId>metavoliCSV</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
-			<groupId>gr.atc.training</groupId>
-			<artifactId>exchangerate</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>metavoliCSV</groupId>
-			<artifactId>metavoliCSV</artifactId>
-		</dependency>
+		
 	</dependencies>
 
 

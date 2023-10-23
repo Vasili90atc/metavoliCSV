@@ -1,4 +1,4 @@
-package gr.atc.training.metavoliCSV;
+package metavoliCSV;
 
 import static org.junit.Assert.assertTrue;
 
