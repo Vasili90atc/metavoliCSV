@@ -5,13 +5,13 @@ public class CountryRate {
 	private String country;
 	private String year;
 	private double rate;
-	private double Change;
+	private double change;
 	private boolean foundMetavoli;
 
 	public CountryRate(String year, String country, double rate, double metavoli) {
 		this.country = country;
 		this.year = year;
-		this.Change = metavoli;
+		this.change = metavoli;
 		this.rate = rate;
 	}
 
@@ -44,11 +44,11 @@ public class CountryRate {
 	}
 
 	public double getMetavoli() {
-		return Change;
+		return change;
 	}
 
 	public void setMetavoli(double metavoli) {
-		this.Change = metavoli;
+		this.change = metavoli;
 	}
 
 	public boolean getfoundMetavoli() {
@@ -61,7 +61,7 @@ public class CountryRate {
 
 	public String[] toCSVString() {
 		if (foundMetavoli == true) {
-			String line[] = { year, country, String.valueOf(rate), String.valueOf(Change) };
+			String line[] = { year, country, String.valueOf(rate), String.valueOf(change) };
 			return line;
 		} else {
 			String line[] = { year, country, String.valueOf(rate), ("  ") };
