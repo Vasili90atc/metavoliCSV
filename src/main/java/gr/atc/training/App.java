@@ -19,7 +19,7 @@ public class App {
 		System.out.println(path);
 		Calculator u = new Calculator();
 		u.readFile(new File(path), lista); // kaloume ti methodo gia na diavasoume to arxeio
-		u.printListaToCSV(lista,"new.csv") ;
+		u.printListaToCSV(lista," new.csv") ;
 		/*
 		 * // dilwnw tis metavlites String year = null; String country = "";
 		 * 
