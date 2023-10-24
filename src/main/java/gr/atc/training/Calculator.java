@@ -91,7 +91,7 @@ public class Calculator {
 			e.printStackTrace();
 		}
 
-		String firstLine[] = { "Year", "Country", "Rate", "Metavoli" };
+		String firstLine[] = { "Year", "Country", "Rate", "Change" };
 		writer.writeNext(firstLine);
 
 		for (int i = 0; i < lista.size(); i++) {
