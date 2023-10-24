@@ -64,7 +64,7 @@ public class CountryRate {
 			String line[] = { year, country, String.valueOf(rate), String.valueOf(change) };
 			return line;
 		} else {
-			String line[] = { year, country, String.valueOf(rate) , ( "  ") };
+			String line[] = { year, country, String.valueOf(rate), ( "  ") };
 			return line;
 		}
 	}

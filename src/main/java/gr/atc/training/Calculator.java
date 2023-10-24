@@ -57,7 +57,7 @@ public class Calculator {
 					CountryRate rc_before = lista.get(lista.size() - 1);
 
 					if (rc_before.getCountry().equals(rc.getCountry())) {
-						rc.setMetavoli(((rc.getRate() - rc_before.getRate())/rc_before.getRate())*100);
+						rc.setMetavoli(((rc.getRate() - rc_before.getRate()) / rc_before.getRate())*100);
 						
 						rc.setfoundMetavoli(true);
 					} else {
